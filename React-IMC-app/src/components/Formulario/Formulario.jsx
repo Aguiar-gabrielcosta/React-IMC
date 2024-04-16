@@ -9,31 +9,25 @@ export default function formulario() {
     const [pesoInvalid, setPesoInvalid] = useState(false)
 
     function recebeAltura(evento) {
-        console.log(evento.target.value);
 
         const alturaTemp = Number(evento.target.value)
 
         if (alturaTemp > 0 && alturaTemp <= 3) {
-            console.log('Altura válida');
             setAltura(alturaTemp)
             setAlturaInvalid(false)
         } else {
-            console.log('Altura inválida');
             setAlturaInvalid(true)
         }
     }
 
     function recebePeso(evento) {
-        console.log(evento.target.value);
 
         const pesoTemp = Number(evento.target.value)
 
         if (pesoTemp > 0 && pesoTemp <= 500) {
-            console.log('Altura válida');
             setPeso(pesoTemp)
             setPesoInvalid(false)
         } else {
-            console.log('Altura inválida');
             setPesoInvalid(true)
         }
     }
