@@ -1,0 +1,21 @@
+.app {
+  background-color: rgb(117, 229, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  max-width: 640px;
+  width: 100%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  margin: 32px 0;
+}

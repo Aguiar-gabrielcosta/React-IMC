@@ -1,0 +1,49 @@
+.btn {
+    padding: 8px;
+    border: none;
+    background-color: rgb(0, 167, 167);
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    margin: 32px 0;
+}
+
+.btn:hover {
+    background-color: rgb(0, 208, 208);
+}
+
+.table {
+    margin: 32px 0;
+}
+
+.table caption {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.table caption a {
+    text-decoration: none;
+    color: rgb(20, 134, 172);
+}
+
+.table, .table th, .table td {
+    border: 1px solid rgb(20, 134, 172);
+    border-collapse: collapse;
+    padding: 8px 32px;
+}
+
+.table th, .table td {
+    width: fit-content;
+}
+
+.table th {
+    background-color: rgb(0, 208, 208);
+    color: white;
+}
+
+.table td {
+    text-align: center;
+}
